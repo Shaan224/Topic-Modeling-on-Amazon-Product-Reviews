@@ -41,20 +41,26 @@ Also, I am working on a web appliction to allow consumers to copy paste the link
 
 # Files in this Repository
 
-* Amazon Product Scraping.ipynb	
-* Amazon_Reviews.csv	
-* LDA Model for Negative Reviews.zip	
-* LDA Model for Positive Reviews.zip	
-* LDA Model.zip	
-* Product Review Analysis.ipynb	
-* Time series plot for number of reviews on each date.html	
-* Top Negative Words in each topic.html	
-* Top Positive Words in each topic.html	
-* Top Words in each topic.html	
+* Amazon Product Scraping.ipynb	- Contains the scraping code
+* Amazon_Reviews.csv	- Scraped Reviews for the random products
+* LDA Model for Negative Reviews.zip	- Saved LDA model for Negative Reviews
+* LDA Model for Positive Reviews.zip	- Saved LDA model for Positive Reviews
+* LDA Model.zip	- LDA model on the whole review data
+* Product Review Analysis.ipynb	- File containg Text Cleaning, Sentiment Classification, Topic Models and Interactive Plots
+* Time series plot for number of reviews on each date.html	- Interactive time series plot for number of reviews on each date
+* Top Negative Words in each topic.html	- LDA model Visualization for Negative Reviews
+* Top Positive Words in each topic.html	- LDA model Visualization for Positive Reviews
+* Top Words in each topic.html	- LDA Model Visualizatio for the whole review data
 * Word cloud for Negative sentiment.png	
 * Word cloud for Positive sentiment.png	
-* cleaned_data.pkl	
-* sentiment_percentage_plot.html
-* word_counts.png
+* cleaned_data.pkl	- Final cleaned data file
+* sentiment_percentage_plot.html- Interactive sentiment Percentage Plot
+* word_counts.png - Word count distribution plot
 
 You can find the [Analysis File with Interactive Plots](https://nbviewer.jupyter.org/github/Shaan224/Topic-Modelling-on-Amazon-Product-Reviews/blob/master/Product%20Review%20Analysis.ipynb#)
+
+# Scope of Improvement
+This project is an effort to make an end to end project on NLP techniques starting from : **Data Collection -> Data Cleaning -> Data Storage and Access -> Exploratory Data Analysis -> Machine Learning -> Interpreting the Model -> Deployment and Implementation** 
+I am new to this field and I am still learning about it. While using Vader Sentiment model for sentiment analysis there were some misclassification errors as some negative reviews with rating 1 or 2 were classified as positive reviews and some positive reviews with rating 4 or 5 were misclassified as negative reviews. Maybe we can solve this issue by adjusting the threshhold value for the model.
+Any feedbacks or suggestions are welcome.
+Thank You for viewing this Project :smile:
