@@ -40,3 +40,19 @@ Also, I am working on a web appliction to allow consumers to copy paste the link
 8) Beautiful Soup -  For parsing html response
 
 # Files in this Repository
+
+* Amazon Product Scraping.ipynb	
+* Amazon_Reviews.csv	
+* LDA Model for Negative Reviews.zip	
+* LDA Model for Positive Reviews.zip	
+* LDA Model.zip	
+* Product Review Analysis.ipynb	
+* Time series plot for number of reviews on each date.html	
+* Top Negative Words in each topic.html	
+* Top Positive Words in each topic.html	
+* Top Words in each topic.html	
+* Word cloud for Negative sentiment.png	
+* Word cloud for Positive sentiment.png	
+* cleaned_data.pkl	
+* sentiment_percentage_plot.html
+* word_counts.png
