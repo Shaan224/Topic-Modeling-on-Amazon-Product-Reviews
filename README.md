@@ -19,7 +19,7 @@ One of the most effective ways of doing topic modeling is by using Gensim LDA mo
 ## About this Project
 
 In this project I have web scrapped reviews of a random product from amazon.in. My purpose here is to apply text wrangling and text cleaning of the reviews then applying sentiment classification to them to see the percantage of positive, negative and neutral reviews.
-Then I have used Topic Modeling to look for keywords about the product features in positive and negative reviews.
+Then I have used Topic Modeling to look for keywords about the product features in positive and negative reviews. For topic modeling I have used Latent Dirichlet Allocation model with hyperparamerter tuning of optimium number of topics based on the coherence value of the models.
 
 Also, I am working on a web appliction to allow consumers to copy paste the link of a product on amazon.in and get the following results and visualization:
 * Percentage of Positve & Negative reviews
